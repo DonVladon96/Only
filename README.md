@@ -1,4 +1,4 @@
-# **Тестовое задание в рамках трудоустройства на позицию React Frontend Developer в компанию ООО Smartway**
+# **Тестовое задание в рамках трудоустройства на позицию React Frontend Developer в компанию Only**
 
 ![preview](https://github.com/DonVladon96/search_github/blob/main/src/assets/preview.png)
 
@@ -12,15 +12,10 @@
 * CSS3
     * Адаптивный пользовательский интерфейс
     * Flexbox
-    * Grid Layout
 * БЭМ Nested
-* Accessibility
-* Webpack
+* Vite
+* Swiper
 
-### **Используется Api https://api.github.com/**
-
-https://search-github-1t59.vercel.app/
-
-### **Версия для просмотра https://search-github-1t59.vercel.app/**
+### **Версия для просмотра https://only-bnk2db3o8-petrovvladik2010yandexrus-projects.vercel.app/**
 Для деплоя приложения использовался сервис vercel.com
 автообновление приложения после каждого коммита
