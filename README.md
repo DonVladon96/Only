@@ -16,6 +16,6 @@
 * Vite
 * Swiper
 
-### **Версия для просмотра https://only-bnk2db3o8-petrovvladik2010yandexrus-projects.vercel.app/**
+### **Версия для просмотра https://only-xdyp-petrovvladik2010yandexrus-projects.vercel.app/**
 Для деплоя приложения использовался сервис vercel.com
 автообновление приложения после каждого коммита
