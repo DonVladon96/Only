@@ -225,7 +225,7 @@ body {
       grid-area: 1 / 1 / 2 / 2;
     }
   }
-  
+
   &__buttons {
     display: flex;
     align-items: center;
@@ -505,7 +505,7 @@ body {
 
   &__text {
     color: #42567A;
-    
+
     @media (max-width: 768px) {
       font-size: 18px;
     }
