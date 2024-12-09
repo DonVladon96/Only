@@ -1,6 +1,6 @@
 # **Тестовое задание в рамках трудоустройства на позицию React Frontend Developer в компанию Only**
 
-![preview](https://github.com/DonVladon96/search_github/blob/main/src/assets/preview.png)
+![preview](https://github.com/DonVladon96/Only/blob/main/src/assets/preview.png)
 
 ### **Технологии**
 ***
