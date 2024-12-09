@@ -7,9 +7,8 @@ interface PaginationProps {
   setActiveIndex: any;
 }
 
-const Pagination = ({activeIndex, setActiveIndex}: PaginationProps) => {
+const Pagination = ({ activeIndex, setActiveIndex }: PaginationProps) => {
   const swiper = useSwiper();
-
   const mockDatesGroups = datesGroups;
 
   function handleClick(e: React.MouseEvent<HTMLDivElement>) {
@@ -20,12 +19,20 @@ const Pagination = ({activeIndex, setActiveIndex}: PaginationProps) => {
     }
   }
 
-  return <div className="pagination">
-    {mockDatesGroups.map((group, index) => {
-      return <div key={index} className={`pagination__item ${index === activeIndex ? 'pagination__item_active' : ''}`}
-        onClick={handleClick} data-index={index} />
-    })}
-  </div>
-}
+  return (
+      <div className="pagination">
+        {mockDatesGroups.map((_, index) => {
+          return (
+              <div
+                  key={index}
+                  className={`pagination__item ${index === activeIndex ? 'pagination__item_active' : ''}`}
+                  onClick={handleClick}
+                  data-index={index}
+              />
+          );
+        })}
+      </div>
+  );
+};
 
 export default Pagination;
